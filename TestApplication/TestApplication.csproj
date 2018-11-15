@@ -82,6 +82,9 @@
     <Compile Include="DockableContainerTest.xaml.cs">
       <DependentUpon>DockableContainerTest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExtendedTimePickerTest.xaml.cs">
+      <DependentUpon>ExtendedTimePickerTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HierarchalListBoxTest.xaml.cs">
       <DependentUpon>HierarchalListBoxTest.xaml</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExtendedTimePickerTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HierarchalListBoxTest.xaml">
       <SubType>Designer</SubType>
